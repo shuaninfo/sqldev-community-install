@@ -1,7 +1,7 @@
 #!/bin/bash
 cd /opt
-wget http://s1.cloud.shuaninfo.com/sqldev/sqldev-free-2.2.60-202211090526.tar.gz
-tar -zxvf sqldev-free-2.2.60-202211090526.tar.gz
+wget https://s1.cloud.shuaninfo.com/sqldev/sqldev-free-2.2.61-202212050822.tar.gz
+tar -zxvf sqldev-free-2.2.61-202212050822.tar.gz
 cd sqldev
 /bin/bash install.sh
 chmod +x ./sqldev
